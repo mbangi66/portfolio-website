@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
           <div class="col-md-12 heading-section text-center ftco-animate">
           	<h1 class="big big-2">Services</h1>
             <h2 class="mb-4">Services</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            <p>Offering web development solutions tailored to your needs and goals.</p>
           </div>
         </div>
     		<div class="row">
@@ -22,7 +22,7 @@ import { Component } from '@angular/core';
 							</span>
 							<div class="desc">
 								<h3 class="mb-5">Web Design</h3>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+								<p>Creating modern, responsive web designs that captivate and engage users, ensuring a memorable online experience for your audience.</p>
 							</div>
 						</a>
 					</div>
@@ -33,7 +33,7 @@ import { Component } from '@angular/core';
 							</span>
 							<div class="desc">
 								<h3 class="mb-5">Phtography</h3>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+								<p>Capturing moments and memories through the lens, transforming them into timeless photographs.</p>
 							</div>
 						</a>
 					</div>
@@ -44,7 +44,7 @@ import { Component } from '@angular/core';
 							</span>
 							<div class="desc">
 								<h3 class="mb-5">Web Developer</h3>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+								<p>Building innovative and responsive websites to bring your ideas to life and enhance your online presence.</p>
 							</div>
 						</a>
 					</div>
@@ -56,7 +56,7 @@ import { Component } from '@angular/core';
 							</span>
 							<div class="desc">
 								<h3 class="mb-5">App Developing</h3>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+								<p>Designing and developing custom mobile applications to meet your unique business needs and engage your audience on the go.</p>
 							</div>
 						</a>
 					</div>
@@ -66,8 +66,8 @@ import { Component } from '@angular/core';
 								<i class="flaticon-ux-design"></i>
 							</span>
 							<div class="desc">
-								<h3 class="mb-5">Branding</h3>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+								<h3 class="mb-5">Cloud Storage</h3>
+								<p>Securely storing and managing your data in the cloud, ensuring accessibility and reliability whenever you need it.</p>
 							</div>
 						</a>
 					</div>
@@ -77,8 +77,8 @@ import { Component } from '@angular/core';
 								<i class="flaticon-idea"></i>
 							</span>
 							<div class="desc">
-								<h3 class="mb-5">Product Strategy</h3>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+								<h3 class="mb-5">Software and Hardware Support</h3>
+								<p>Providing comprehensive software and hardware support to keep your systems running smoothly and efficiently.</p>
 							</div>
 						</a>
 					</div>

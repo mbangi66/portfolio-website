@@ -28,7 +28,7 @@ import { Component } from '@angular/core';
 		    					<span class="date">2016 - 2019</span>
 		    					<h2>Bachelor of Commerce</h2>
 		    					<span class="position">Mumbai University</span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		    					<p>Bachelor of Commerce from Mumbai University provides a comprehensive understanding of commerce, finance, and business management, preparing graduates for careers in various fields such as accounting, finance, and entrepreneurship.</p>
 	    					</div>
 	    				</div>
 	    				<div class="resume-wrap d-flex ftco-animate">
@@ -39,7 +39,7 @@ import { Component } from '@angular/core';
 		    					<span class="date">2014 - 2016</span>
 		    					<h2>HSC With IT as a Second Subject</h2>
 		    					<span class="position">A.K.I Junior College Goregaon </span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		    					<p>HSC with IT as a Second Subject from A.K.I Junior College, Goregaon, provides a strong foundation in Information Technology alongside core subjects, offering students a diverse skill set for future endeavors.</p>
 		    				</div>
 	    				</div>
 	    				<div class="resume-wrap d-flex ftco-animate">
@@ -50,7 +50,7 @@ import { Component } from '@angular/core';
 		    					<span class="date">2020</span>
 		    					<h2>WEB Development AND MEAN Stack</h2>
 		    					<span class="position">Seven Mentor Pvt. Ltd, Pune</span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		    					<p>Completed a comprehensive course in Web Development and MEAN Stack from Seven Mentor Pvt. Ltd, Pune, gaining proficiency in modern web development technologies and MEAN stack framework for building dynamic and scalable web applications.</p>
 		    				</div>
 	    				</div>
 	    				<div class="resume-wrap d-flex ftco-animate">
@@ -61,7 +61,7 @@ import { Component } from '@angular/core';
 		    					<span class="date">2015</span>
 		    					<h2>MS-CIT</h2>
 		    					<span class="position">MKCL Authorized Learning Center</span>
-		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		    					<p>Attained MS-CIT certification from an MKCL Authorized Learning Center, acquiring fundamental computer skills and proficiency in essential office applications.</p>
 		    				</div>
 	    				</div>
 					  </div>

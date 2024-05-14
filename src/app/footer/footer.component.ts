@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">About</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <p>Discover more about me and my journey in the world of technology.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="https://twitter.com/Mustaqeembangi"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="https://www.linkedin.com/in/mustaqeembangi/"><span class="icon-linkedin"></span></a></li>
