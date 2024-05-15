@@ -15,7 +15,7 @@ import { Component } from '@angular/core';
           </div>
         </div>
     		<div class="row">
-					<div class="col-md-4 text-center d-flex ftco-animate">
+					<div class="col-md-4 text-center d-flex ftco-animate round">
 						<a href="#" class="services-1 shadow">
 							<span class="icon">
 								<i class="flaticon-analysis"></i>
@@ -26,7 +26,7 @@ import { Component } from '@angular/core';
 							</div>
 						</a>
 					</div>
-					<div class="col-md-4 text-center d-flex ftco-animate">
+					<div class="col-md-4 text-center d-flex ftco-animate round">
 						<a href="#" class="services-1 shadow">
 							<span class="icon">
 								<i class="flaticon-flasks"></i>
@@ -37,7 +37,7 @@ import { Component } from '@angular/core';
 							</div>
 						</a>
 					</div>
-					<div class="col-md-4 text-center d-flex ftco-animate">
+					<div class="col-md-4 text-center d-flex ftco-animate round">
 						<a href="#" class="services-1 shadow">
 							<span class="icon">
 								<i class="flaticon-ideas"></i>
@@ -49,7 +49,7 @@ import { Component } from '@angular/core';
 						</a>
 					</div>
 
-					<div class="col-md-4 text-center d-flex ftco-animate">
+					<div class="col-md-4 text-center d-flex ftco-animate round">
 						<a href="#" class="services-1 shadow">
 							<span class="icon">
 								<i class="flaticon-innovation"></i>
@@ -60,7 +60,7 @@ import { Component } from '@angular/core';
 							</div>
 						</a>
 					</div>
-					<div class="col-md-4 text-center d-flex ftco-animate">
+					<div class="col-md-4 text-center d-flex ftco-animate round">
 						<a href="#" class="services-1 shadow">
 							<span class="icon">
 								<i class="flaticon-ux-design"></i>
@@ -71,7 +71,7 @@ import { Component } from '@angular/core';
 							</div>
 						</a>
 					</div>
-					<div class="col-md-4 text-center d-flex ftco-animate">
+					<div class="col-md-4 text-center d-flex ftco-animate round">
 						<a href="#" class="services-1 shadow">
 							<span class="icon">
 								<i class="flaticon-idea"></i>
@@ -85,10 +85,6 @@ import { Component } from '@angular/core';
 				</div>
     	</div>
     </section>
- 
-
-    
-
   `,
   styles: ``
 })
