@@ -36,11 +36,11 @@ import { Component } from '@angular/core';
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Services</h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Business Strategy</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Graphic Design</a></li>
+                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
+                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
+                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Software and Hardware Support</a></li>
+                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Cloud Storage</a></li>
+                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>App Development</a></li>
               </ul>
             </div>
           </div>
