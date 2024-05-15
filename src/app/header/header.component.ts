@@ -37,7 +37,7 @@ import { Component } from '@angular/core';
 								  <span
 								     class="txt-rotate"
 								     data-period="2000"
-								     data-rotate='[ "Web Designer.", "Developer.", "Photographer.", "Marketer.", "Blogger" ]'></span>
+								     data-rotate='[ "Web Designer.", "Developer.", "Tech Support.", "Cloud Storage Support" ]'></span>
 								</h2>
 							</div>
             </div>

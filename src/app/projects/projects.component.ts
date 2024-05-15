@@ -43,7 +43,7 @@ import { Component } from '@angular/core';
 	    				</div>
     				</div>
     			</div>
-    			<div class="col-md-4">
+    			<!-- <div class="col-md-4">
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(../assets/images/work-4.jpg);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
@@ -69,7 +69,7 @@ import { Component } from '@angular/core';
 	    					<span>Web Design</span>
 	    				</div>
     				</div>
-    			</div>
+    			</div> -->
     		</div>
     	</div>
     </section>
