@@ -34,7 +34,7 @@ import { Component } from '@angular/core';
           		</div>
           		<div>
 	          		<h3 class="mb-4">Contact Number</h3>
-		            <p><a href="tel://1234567920">+965 410 76750</a></p>
+		            <p><a href="tel://+965 410 76750">+965 410 76750</a></p>
 	            </div>
 	          </div>
           </div>
