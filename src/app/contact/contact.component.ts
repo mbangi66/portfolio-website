@@ -111,7 +111,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <div class="col-md-6 d-flex">
-          	<div class="img" style="background-image: url(https://source.unsplash.com/random/?city,night);"></div>
+          	<div class="img" style="background-image: url(../assets/images/about1.jpg);"></div>
           </div>
         </div>
       </div>
