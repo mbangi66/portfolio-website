@@ -2,3 +2,8 @@
     border-radius: 10px;
 }
 
+@media (max-width: 767px) {
+    .ftco-partner .partner {
+        max-width: 220px; /* Adjust the size as needed */
+    }
+}
