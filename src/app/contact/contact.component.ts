@@ -45,7 +45,7 @@ import { Component } from '@angular/core';
           		</div>
           		<div>
 	          		<h3 class="mb-4">Email Address</h3>
-		            <p><a href="mailto:info@yoursite.com">mbangi66&#64;gmail.com</a></p>
+		            <p><a href="mailto:mbangi66@gmail.com">mbangi66&#64;gmail.com</a></p>
 		          </div>
 	          </div>
           </div>
