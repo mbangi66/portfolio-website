@@ -51,7 +51,7 @@ import { Component } from '@angular/core';
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text">Ardiya Kuwait 138st</span></li>
 	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+965 410 76750</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">mbangi66&#64;gmail.com</span></a></li>
+	                <li><a href="mailto:mbangi66@gmail.com"><span class="icon icon-envelope"></span><span class="text">mbangi66&#64;gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>

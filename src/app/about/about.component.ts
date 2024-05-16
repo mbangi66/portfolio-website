@@ -26,7 +26,7 @@ import { Component } from '@angular/core';
 		            	<li class="d-flex"><span>Date of birth:</span> <span>June 04, 1997</span></li>
 		            	<li class="d-flex"><span>Address:</span> <span>Ardiya Kuwait</span></li>
 		            	<li class="d-flex"><span>Zip code:</span> <span>183</span></li>
-		            	<li class="d-flex"><span>Email:</span> <a href="mailto:mbangi66@gmail.com"> <span >mbangi66&#64;gmail.com</span></a></li>
+		            	<li class="d-flex"><span>Email:</span> <span >mbangi66&#64;gmail.com</span></li>
 		            	<li class="d-flex"><span>Phone: </span> <span>+965 410 76750</span></li>
 		            </ul>
 		          </div>
