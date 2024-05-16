@@ -7,3 +7,7 @@
         max-width: 220px; /* Adjust the size as needed */
     }
 }
+
+.skills {
+    border-radius: 10px;
+}

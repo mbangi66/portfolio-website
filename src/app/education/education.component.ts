@@ -182,50 +182,48 @@ import { Component } from '@angular/core';
 					    		<span class="flaticon-ideas"></span>
 					    	</div>
 					    	<div class="text pl-3">
-		    					<span class="date">2020 - 2021 </span>
-		    					<h2>Web Designer</h2>
-		    					<span class="position">SerpClimber</span>
-		    					<ul>
-                    <li>
-                      <p>Collaborated with cross-functional teams to design visually appealing and user-friendly websites.</p>
-                    </li>
-                    <li>
-                      <p>Created website layouts, graphics, and user interfaces that aligned with client goals and brand identities.</p>
-                    </li>
-                    <li>
-                      <p>Conducted website updates and maintenance tasks to ensure that websites remained up-to-date and functional.</p>
-                      <p>Assisted with website optimization and user testing to improve website functionality and user experience.</p>
-                    </li>
-                    <li>
-                      <p>Gained hands-on experience in WordPress, HTML, CSS, and JavaScript.</p>
-                      <p>Analysis content:</p>
-                      <ul>
-                        <li>Analyzing website content to identify opportunities for improvement in SEO and user experience.</li>
-                        <li>Conducting keyword research to identify relevant and high-traffic keywords for website optimization.</li>
-                        <li>Developing content plans and strategies that align with business objectives and target audiences.</li>
-                        <li>Tracking and analyzing content performance metrics to measure success and identify areas for improvement.</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <p>Web Content Management:</p>
-                      <ul>
-                        <li>Creating and publishing website content that is optimized for search engines and user experience.</li>
-                        <li>Managing website updates and maintenance tasks to ensure that website content remains up-to-date and relevant.</li>
-                        <li>Developing website information architecture and navigation to improve user experience and engagement.</li>
-                        <li>Collaborating with cross-functional teams to ensure website content meets brand standards and business objectives.</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <p>Cold Outreach and Email Marketing:</p>
-                      <ul>
-                        <li>Developing and executing cold outreach strategies through email to reach target audiences and generate leads.</li>
-                        <li>Creating email campaigns that are personalized, engaging, and optimized for conversion.</li>
-                        <li>Tracking and analyzing email campaign metrics to measure success and identify areas for improvement.</li>
-                        <li>Staying up-to-date on email marketing best practices and industry trends to continually improve campaign performance.</li>
-                      </ul>
-                    </li>
-                  </ul>
-		    				</div>
+								<span class="date">2020 - 2021 </span>
+								<h2>Web Designer</h2>
+								<span class="position">SerpClimber</span>
+								<ul>
+									<li>
+										Collaborated with cross-functional teams to design visually appealing and user-friendly websites.
+									</li>
+									<li>
+										Created website layouts, graphics, and user interfaces aligned with client goals and brand identities.
+									</li>
+									<li>
+										Conducted website updates, maintenance, optimization, and user testing.
+									</li>
+									<li>
+										Gained hands-on experience in WordPress, HTML, CSS, and JavaScript.
+										<ul>
+											<li>Analyzed website content for SEO and user experience improvement.</li>
+											<li>Conducted keyword research for website optimization.</li>
+											<li>Developed content plans and strategies aligned with business objectives.</li>
+											<li>Tracked and analyzed content performance metrics.</li>
+										</ul>
+									</li>
+									<li>
+										Web Content Management:
+										<ul>
+											<li>Created and published SEO-optimized website content.</li>
+											<li>Managed website updates and maintenance.</li>
+											<li>Developed website architecture and navigation.</li>
+											<li>Ensured website content met brand standards and business objectives.</li>
+										</ul>
+									</li>
+									<li>
+										Cold Outreach and Email Marketing:
+										<ul>
+											<li>Developed and executed cold outreach strategies via email.</li>
+											<li>Created personalized, engaging, conversion-optimized email campaigns.</li>
+											<li>Tracked and analyzed email campaign metrics.</li>
+											<li>Stayed updated on email marketing best practices and trends.</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
 	    				</div>
 					  </div>
 					  <div id="page-3" class= "page three">
