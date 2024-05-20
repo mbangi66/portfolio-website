@@ -33,7 +33,7 @@ import { Component } from '@angular/core';
 	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
               <div class="text">
               	<p class="mb-4">
-	                <span class="number" data-number="12">0</span>
+	                <span class="number" data-number="40">0</span>
 	                <span>Project complete</span>
                 </p>
                 <p><a href="../assets/Mustaqeem-Bangi-CV.pdf" class="btn btn-primary py-3 px-3">Download CV</a></p>
