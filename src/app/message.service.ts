@@ -9,6 +9,7 @@ import {
   repeatWhen,
   take,
 } from 'rxjs/operators';
+import { EMPTY } from 'rxjs';
 
 interface TypeParams {
   word: string;
