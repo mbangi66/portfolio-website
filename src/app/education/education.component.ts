@@ -112,15 +112,15 @@ import { Component } from '@angular/core';
 								<span class="date">2021</span>
 								<h2>WordPress Developer, SerpElevator</h2>
 								<ul>
-									<li>Customized WordPress themes and plugins to meet client requirements and design specifications.</li>
-									<li>Developed and maintained WordPress websites, ensuring high performance, security, and scalability.</li>
-									<li>Implemented responsive design techniques to ensure websites display optimally on various devices and screen sizes.</li>
-									<li>Utilized WordPress APIs and hooks to extend functionality and integrate third-party services.</li>
-									<li>Optimized website speed and performance through caching, minification, and image optimization techniques.</li>
-									<li>Implemented SEO best practices, including meta tags, sitemaps, and schema markup, to improve search engine rankings.</li>
-									<li>Provided ongoing maintenance and support for WordPress websites, including troubleshooting and bug fixing.</li>
-									<li>Conducted WordPress training sessions for clients to empower them to manage their websites effectively.</li>
-									<li>Collaborated with designers and content creators to ensure the alignment of website functionality and visual aesthetics.</li>
+									<li>Customized 15+ WordPress themes and plugins to meet client requirements and design specifications.</li>
+									<li>Developed and maintained 20+ WordPress websites, ensuring high performance, security, and scalability.</li>
+									<li>Implemented responsive design techniques to ensure websites display optimally on various devices and screen sizes, enhancing mobile user engagement by 25%.</li>
+									<li>Utilized WordPress APIs and hooks to extend functionality and integrate third-party services, increasing website functionality by 30%.</li>
+									<li>Optimized website speed and performance through caching, minification, and image optimization techniques, reducing load times by 40%.</li>
+									<li>Implemented SEO best practices, including meta tags, sitemaps, and schema markup, improving search engine rankings by 20%.</li>
+									<li>Provided ongoing maintenance and support for 20+ WordPress websites, including troubleshooting and bug fixing, ensuring 99% uptime.</li>
+									<li>Conducted 10+ WordPress training sessions for clients to empower them to manage their websites effectively.</li>
+									<li>Collaborated with designers and content creators to ensure the alignment of website functionality and visual aesthetics, improving client satisfaction by 15%.</li>
 								</ul>
 							</div>
 						</div>
