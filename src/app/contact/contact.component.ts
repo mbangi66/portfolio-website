@@ -14,7 +14,7 @@ import { CommonModule } from '@angular/common';
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Contact</h1>
             <h2 class="mb-4">Contact Me</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            <p>Feel free to reach out to me for any inquiries or collaborations. I'm just a message away!</p>
           </div>
         </div>
 

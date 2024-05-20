@@ -36,7 +36,7 @@ import { Component } from '@angular/core';
 	                <span class="number" data-number="12">0</span>
 	                <span>Project complete</span>
                 </p>
-                <p><a href="../assets/Mustaqeem_Abdullah_bangi.pdf" class="btn btn-primary py-3 px-3">Download CV</a></p>
+                <p><a href="../assets/Mustaqeem-Bangi-CV.pdf" class="btn btn-primary py-3 px-3">Download CV</a></p>
               </div>
 	          </div>
 	        </div>

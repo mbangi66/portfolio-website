@@ -39,7 +39,7 @@ import { Component } from '@angular/core';
                       <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Custom Web Dev.</a></li>
                       <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>WordPress Dev.</a></li>
                       <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Database Mgmt. & Integration</a></li>
-                      <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Dev. with .NET & C#</a></li>
+                      <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Backend Dev. with .NET & C#</a></li>
                       <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>SEO Optimization</a></li>
                   </ul>
               </div>
