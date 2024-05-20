@@ -21,8 +21,8 @@ import { Component } from '@angular/core';
 								<i class="flaticon-analysis"></i>
 							</span>
 							<div class="desc">
-								<h3 class="mb-5">Web Design</h3>
-								<p>Creating modern, responsive web designs that captivate and engage users, ensuring a memorable online experience for your audience.</p>
+								<h3 class="mb-5">Custom Web Development</h3>
+								<p>Offering custom website development using HTML5, CSS3, and JavaScript/TypeScript to create tailored solutions for clients.</p>
 							</div>
 						</a>
 					</div>
@@ -32,8 +32,8 @@ import { Component } from '@angular/core';
 								<i class="flaticon-flasks"></i>
 							</span>
 							<div class="desc">
-								<h3 class="mb-5">Phtography</h3>
-								<p>Capturing moments and memories through the lens, transforming them into timeless photographs.</p>
+								<h3 class="mb-5">WordPress Website Design and Development</h3>
+								<p>Providing WordPress website design and development services, including theme customization, plugin integration, and content management system setup.</p>
 							</div>
 						</a>
 					</div>
@@ -43,8 +43,8 @@ import { Component } from '@angular/core';
 								<i class="flaticon-ideas"></i>
 							</span>
 							<div class="desc">
-								<h3 class="mb-5">Web Developer</h3>
-								<p>Building innovative and responsive websites to bring your ideas to life and enhance your online presence.</p>
+								<h3 class="mb-5">Database Management and Integration</h3>
+								<p>Offering MySQL database development and management services for dynamic web applications, as well as MongoDB database setup and integration for flexible data storage.</p>
 							</div>
 						</a>
 					</div>
@@ -55,8 +55,8 @@ import { Component } from '@angular/core';
 								<i class="flaticon-innovation"></i>
 							</span>
 							<div class="desc">
-								<h3 class="mb-5">App Developing</h3>
-								<p>Designing and developing custom mobile applications to meet your unique business needs and engage your audience on the go.</p>
+								<h3 class="mb-5">Development with .NET and C#</h3>
+								<p>Development services using .NET and C# to build robust backend systems, APIs, and server-side logic for web applications.</p>
 							</div>
 						</a>
 					</div>
@@ -66,8 +66,8 @@ import { Component } from '@angular/core';
 								<i class="flaticon-ux-design"></i>
 							</span>
 							<div class="desc">
-								<h3 class="mb-5">Cloud Storage</h3>
-								<p>Securely storing and managing your data in the cloud, ensuring accessibility and reliability whenever you need it.</p>
+								<h3 class="mb-5">SEO Optimization Services</h3>
+								<p>Providing SEO optimization services to improve website visibility and search engine rankings, including implementation of SEO best practices and ongoing optimization efforts.</p>
 							</div>
 						</a>
 					</div>
@@ -77,8 +77,8 @@ import { Component } from '@angular/core';
 								<i class="flaticon-idea"></i>
 							</span>
 							<div class="desc">
-								<h3 class="mb-5">Software and Hardware Support</h3>
-								<p>Providing comprehensive software and hardware support to keep your systems running smoothly and efficiently.</p>
+								<h3 class="mb-5">Maintenance, Support, and Training</h3>
+								<p>Offering maintenance and support services for websites and web applications, including troubleshooting, bug fixing, and regular updates. Additionally, providing WordPress training sessions for clients to empower them to manage their websites effectively.</p>
 							</div>
 						</a>
 					</div>
