@@ -25,10 +25,10 @@ import { Component } from '@angular/core';
               <h2 class="ftco-heading-2">Links</h2>
               <ul class="list-unstyled">
                 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+                <li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
+                <li><a href="#projects-section"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+                <li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
               </ul>
             </div>
           </div>
@@ -36,11 +36,11 @@ import { Component } from '@angular/core';
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Services</h2>
               <ul class="list-unstyled">
-                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
-                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
-                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Software and Hardware Support</a></li>
-                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Cloud Storage</a></li>
-                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>App Development</a></li>
+                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Custom Web Development</a></li>
+                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>WordPress Website Design and Development</a></li>
+                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Database Management and Integration</a></li>
+                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Backend Development with .NET and C#</a></li>
+                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>SEO Optimization Services</a></li>
               </ul>
             </div>
           </div>
