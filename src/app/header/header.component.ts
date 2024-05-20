@@ -24,7 +24,7 @@ import { Component,ViewChild, ElementRef } from '@angular/core';
     </div>
   </div>
 </nav>
-	  <section class="hero-wrap js-fullheight">
+    <section class="hero-wrap js-fullheight">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
@@ -36,7 +36,7 @@ import { Component,ViewChild, ElementRef } from '@angular/core';
 								  <span
 								     class="txt-rotate"
 								     data-period="2000"
-								     data-rotate='["Web Developer", "WordPress Developer", "Database Administrator", "Cloud Solutions Architect"]'></span>
+								     data-rotate='["Web Developer", "WordPress Developer", "Database Administrator", "Cloud Solutions Architect", "Tech Support"]'></span>
 								</h2>
 							</div>
             </div>
