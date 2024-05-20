@@ -3,11 +3,23 @@
 }
 
 @media (max-width: 767px) {
-    .ftco-partner .partner {
-        max-width: 220px; /* Adjust the size as needed */
+    svg {
+        max-width: 75px;
+        padding: 10px 0px 0px 30px ;
     }
+
 }
 
 .skills {
     border-radius: 10px;
+}
+
+svg {
+    max-width: 120px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
