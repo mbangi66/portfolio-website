@@ -149,7 +149,7 @@ import { Component } from '@angular/core';
 					  	<div class="row progress-circle mb-5">
 					  		<div class="col-lg-4 mb-4">
 						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center mb-4">Angular</h2>
+						        <h2 class="h5 font-weight-bold text-center mb-4">MEAN Stack</h2>
 
 						        <!-- Progress bar 1 -->
 						        <div class="progress mx-auto" data-value='90'>
@@ -180,7 +180,7 @@ import { Component } from '@angular/core';
 
 						    <div class="col-lg-4 mb-4">
 						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center mb-4">.NET</h2>
+						        <h2 class="h5 font-weight-bold text-center mb-4">WordPress Development</h2>
 
 						        <!-- Progress bar 1 -->
 						        <div class="progress mx-auto" data-value='80'>
@@ -211,7 +211,7 @@ import { Component } from '@angular/core';
 
 						    <div class="col-lg-4 mb-4">
 						      <div class="bg-white rounded-lg shadow p-4">
-						        <h2 class="h5 font-weight-bold text-center mb-4">Azure</h2>
+						        <h2 class="h5 font-weight-bold text-center mb-4">ASP.NET and Azure</h2>
 
 						        <!-- Progress bar 1 -->
 						        <div class="progress mx-auto" data-value='75'>
@@ -243,7 +243,7 @@ import { Component } from '@angular/core';
 					  	<div class="row">
 					  		<div class="col-md-6 animate-box">
 									<div class="progress-wrap ftco-animate">
-										<h3>TypeScript</h3>
+										<h3>HTML5</h3>
 										<div class="progress">
 										 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
 										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
@@ -254,18 +254,7 @@ import { Component } from '@angular/core';
 								</div>
 								<div class="col-md-6 animate-box">
 									<div class="progress-wrap ftco-animate">
-										<h3>JavaScript</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="90"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-										    <span>90%</span>
-										  	</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>HTML5</h3>
+										<h3>CSS3</h3>
 										<div class="progress">
 										 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
 										  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
@@ -276,18 +265,7 @@ import { Component } from '@angular/core';
 								</div>
 								<div class="col-md-6 animate-box">
 									<div class="progress-wrap ftco-animate">
-										<h3>CSS3</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-										    <span>90%</span>
-										  	</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>WordPress</h3>
+										<h3>JavaScript/TypeScript</h3>
 										<div class="progress">
 										 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="80"
 										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
@@ -298,29 +276,29 @@ import { Component } from '@angular/core';
 								</div>
 								<div class="col-md-6 animate-box">
 									<div class="progress-wrap ftco-animate">
+										<h3>MySQL</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										    <span>80%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+                <div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>WordPress</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										    <span>80%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+                <div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
 										<h3>SEO</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-										    <span>80%</span>
-										  	</div>
-										</div>
-									</div>
-								</div>
-                <div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>.NET</h3>
-										<div class="progress">
-										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-										    <span>80%</span>
-										  	</div>
-										</div>
-									</div>
-								</div>
-                <div class="col-md-6 animate-box">
-									<div class="progress-wrap ftco-animate">
-										<h3>C#</h3>
 										<div class="progress">
 										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="70"
 										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
@@ -331,7 +309,7 @@ import { Component } from '@angular/core';
 								</div>
                 <div class="col-md-6 animate-box">
 									<div class="progress-wrap ftco-animate">
-										<h3>MySQL</h3>
+										<h3>.NET and C#</h3>
 										<div class="progress">
 										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="85"
 										  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
