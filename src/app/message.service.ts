@@ -26,13 +26,22 @@ export class MessageService {
     
   }
     private type({ word, speed, backwards = false }: TypeParams) {
-      return interval(speed).pipe(
-        map((x) =>
-          backwards ? word.substring(0, word.length - x) : word.substring(0, x + 1)
-        ),
-        take(word.length)
-      );
+  let currentCharIndex = 0;
+
+  const animate = () => {
+    if (currentCharIndex === word.length || currentCharIndex === 0) {
+      return; // Animation complete
     }
+    const nextChar = backwards ? word.charAt(word.length - currentCharIndex - 1) : word.charAt(currentCharIndex);
+    // Update displayed text using DOM manipulation or a dedicated component state
+    currentCharIndex += backwards ? -1 : 1;
+    requestAnimationFrame(animate);
+  };
+
+  requestAnimationFrame(animate);
+  return EMPTY; // Return EMPTY to prevent conflicts with other operators
+}
+
   
     typeEffect(word: string) {
       return concat(
