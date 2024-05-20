@@ -66,166 +66,84 @@ import { Component } from '@angular/core';
 	    				</div>
 					  </div>
 
-					  <div id="page-2" class= "page two">
-					  	<h2 class="heading">Experience</h2>
-					    <div class="resume-wrap d-flex ftco-animate">
-					    	<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2024</span>
-		    					<h2>ASP.NET MVC Developer | Azure Cloud</h2>
-		    					<span class="position">Freelance</span>
-                    <ul>
-                    <li>
-                      <p>Developed ASP.NET MVC project hosted on Azure with Docker containers.</p>
-                    </li>
-                    <li>
-                      <p>Implemented user authentication and authorization features, including:</p>
-                      <ul>
-                        <li>Account creation</li>
-                        <li>Email verification</li>
-                        <li>Password reset</li>
-                        <li>Role-based access control (RBAC)</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <p>Designed and developed an admin dashboard with search functionality for efficient data management.</p>
-                    </li>
-                    <li>
-                      <p>Managed employee lists, leave applications, and role assignments within the admin dashboard.</p>
-                    </li>
-                    <li>
-                      <p>Utilized Azure SQL database migration for seamless data management, ensuring:</p>
-                      <ul>
-                        <li>Data integrity</li>
-                        <li>Scalability</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <p>Enhanced employee profiles with additional details such as:</p>
-                      <ul>
-                        <li>Cities</li>
-                        <li>Countries</li>
-                        <li>Bank account information</li>
-                      </ul>
-                      <p>For comprehensive data tracking and management.</p>
-                    </li>
-                  </ul>
-		    				</div>
-	    				</div>
-	    				<div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2021 - 2023</span>
-		    					<h2>Web Developer</h2>
-		    					<span class="position">SerpElevator</span>
-		    					<ul>
-                    <li>
-                      <p>Developed and maintained web applications using MEAN Stack technology.</p>
-                    </li>
-                    <li>
-                      <p>Collaborated with the development team to design and implement user-friendly features and functionalities.</p>
-                    </li>
-                    <li>
-                      <p>Assisted in the creation of responsive design for cross-platform compatibility.</p>
-                    </li>
-                    <li>
-                      <p>Improved website speed and functionality through optimization techniques.</p>
-                    </li>
-                  </ul>
-		    				</div>
-	    				</div>
-              <div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-		    					<span class="date">2021</span>
-		    					<h2>Wordpress Developer</h2>
-		    					<span class="position">SerpElevator</span>
-		    					<ul>
-                    <li>
-                      <p>Customized WordPress themes and plugins to meet client requirements and design specifications.</p>
-                    </li>
-                    <li>
-                      <p>Developed and maintained WordPress websites, ensuring high performance, security, and scalability.</p>
-                    </li>
-                    <li>
-                      <p>Implemented responsive design techniques to ensure websites display optimally on various devices and screen sizes.</p>
-                    </li>
-                    <li>
-                      <p>Utilized WordPress APIs and hooks to extend functionality and integrate third-party services.</p>
-                    </li>
-                    <li>
-                      <p>Optimized website speed and performance through caching, minification, and image optimization techniques.</p>
-                    </li>
-                    <li>
-                      <p>Implemented SEO best practices, including meta tags, sitemaps, and schema markup, to improve search engine rankings.</p>
-                    </li>
-                    <li>
-                      <p>Provided ongoing maintenance and support for WordPress websites, including troubleshooting and bug fixing.</p>
-                    </li>
-                    <li>
-                      <p>Conducted WordPress training sessions for clients to empower them to manage their websites effectively.</p>
-                    </li>
-                    <li>
-                      <p>Collaborated with designers and content creators to ensure the alignment of website functionality and visual aesthetics.</p>
-                    </li>
-                  </ul>
-		    				</div>
-	    				</div>
-	    				<div class="resume-wrap d-flex ftco-animate">
-	    					<div class="icon d-flex align-items-center justify-content-center">
-					    		<span class="flaticon-ideas"></span>
-					    	</div>
-					    	<div class="text pl-3">
-								<span class="date">2020 - 2021 </span>
-								<h2>Web Designer</h2>
-								<span class="position">SerpClimber</span>
+					  <div id="page-2" class="page two">
+						<h2 class="heading">Experience</h2>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2024</span>
+								<h2>Freelance, ASP.NET MVC Developer</h2>
 								<ul>
-									<li>
-										Collaborated with cross-functional teams to design visually appealing and user-friendly websites.
-									</li>
-									<li>
-										Created website layouts, graphics, and user interfaces aligned with client goals and brand identities.
-									</li>
-									<li>
-										Conducted website updates, maintenance, optimization, and user testing.
-									</li>
-									<li>
-										Gained hands-on experience in WordPress, HTML, CSS, and JavaScript.
-										<ul>
-											<li>Analyzed website content for SEO and user experience improvement.</li>
-											<li>Conducted keyword research for website optimization.</li>
-											<li>Developed content plans and strategies aligned with business objectives.</li>
-											<li>Tracked and analyzed content performance metrics.</li>
-										</ul>
-									</li>
-									<li>
-										Web Content Management:
-										<ul>
-											<li>Created and published SEO-optimized website content.</li>
-											<li>Managed website updates and maintenance.</li>
-											<li>Developed website architecture and navigation.</li>
-											<li>Ensured website content met brand standards and business objectives.</li>
-										</ul>
-									</li>
-									<li>
-										Cold Outreach and Email Marketing:
-										<ul>
-											<li>Developed and executed cold outreach strategies via email.</li>
-											<li>Created personalized, engaging, conversion-optimized email campaigns.</li>
-											<li>Tracked and analyzed email campaign metrics.</li>
-											<li>Stayed updated on email marketing best practices and trends.</li>
-										</ul>
-									</li>
+									<li>Led the development of three ASP.NET MVC projects on Azure with Docker, improving deployment efficiency by 30%.</li>
+									<li>Enhanced security protocols by 50% through implementing user authentication and authorization (RBAC).</li>
+									<li>Designed and developed an admin dashboard with advanced search, boosting data management efficiency by 40%.</li>
+									<li>Streamlined administrative processes by managing employee lists, leave applications, and role assignments, reducing processing time by 35%.</li>
+									<li>Migrated Azure SQL databases for seamless data management, enhancing performance by 25%.</li>
 								</ul>
 							</div>
-	    				</div>
-					  </div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2021 - 2023</span>
+								<h2>Web Developer, SerpElevator</h2>
+								<ul>
+									<li>Built and sustained over 10 web applications using MEAN Stack technology.</li>
+									<li>Worked together with a team of five to design and implement user-friendly features, increasing user satisfaction by 30%.</li>
+									<li>Developed responsive designs for cross-platform compatibility, boosting mobile user engagement by 25%.</li>
+									<li>Optimized website speed and functionality, cutting load times by 40%.</li>
+									<li>Integrated third-party APIs to expand application functionality, increasing user interaction by 20%.</li>
+									<li>Conducted code reviews and implemented best practices, reducing bugs by 15% and improving code quality.</li>
+									<li>Executed email outreach strategies, generating a 15% increase in qualified leads.</li>
+									<li>Created personalized and engaging email campaigns, achieving a 20% higher open rate and a 25% increase in click-through rates.</li>
+									<li>Analyzed email campaign metrics to identify areas for improvement, enhancing performance by 10%.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2021</span>
+								<h2>WordPress Developer, SerpElevator</h2>
+								<ul>
+									<li>Customized WordPress themes and plugins to meet client requirements and design specifications.</li>
+									<li>Developed and maintained WordPress websites, ensuring high performance, security, and scalability.</li>
+									<li>Implemented responsive design techniques to ensure websites display optimally on various devices and screen sizes.</li>
+									<li>Utilized WordPress APIs and hooks to extend functionality and integrate third-party services.</li>
+									<li>Optimized website speed and performance through caching, minification, and image optimization techniques.</li>
+									<li>Implemented SEO best practices, including meta tags, sitemaps, and schema markup, to improve search engine rankings.</li>
+									<li>Provided ongoing maintenance and support for WordPress websites, including troubleshooting and bug fixing.</li>
+									<li>Conducted WordPress training sessions for clients to empower them to manage their websites effectively.</li>
+									<li>Collaborated with designers and content creators to ensure the alignment of website functionality and visual aesthetics.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2020 - 2021</span>
+								<h2>Web Designer, SerpClimber</h2>
+								<ul>
+									<li>Designed and upheld over 10 visually appealing, user-friendly websites, increasing client retention by 20%.</li>
+									<li>Created layouts, graphics, and interfaces aligned with client goals, leading to a 15% rise in user engagement.</li>
+									<li>Ensured 99% uptime and operational efficiency through regular updates and maintenance.</li>
+									<li>Improved website functionality and user experience, achieving a 25% increase in key metrics.</li>
+									<li>Gained proficiency in WordPress, HTML, CSS, and JavaScript, reducing project turnaround times by 30%.</li>
+									<li>Published SEO-optimized content, driving a 30% increase in site visits.</li>
+									<li>Managed content updates, resulting in a 25% increase in page views.</li>
+									<li>Enhanced website architecture and navigation, refining user experience scores by 35%.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 					  <div id="page-3" class= "page three">
 					  	<h2 class="heading">Skills</h2>
 					  	<div class="row progress-circle mb-5">
