@@ -10,6 +10,7 @@ import { ExperienceComponent } from './app/experience/experience.component';
 import { SkillsComponent } from './app/skills/skills.component';
 import { ServicesComponent } from './app/services/services.component';
 import { FooterComponent } from './app/footer/footer.component';
+import { provideAnimations } from '@angular/platform-browser/animations';
 
-bootstrapApplication(AppComponent, appConfig)
+bootstrapApplication(AppComponent,appConfig )
   .catch((err) => console.error(err));
