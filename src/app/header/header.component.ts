@@ -1,4 +1,4 @@
-import { Component,ViewChild, ElementRef,Renderer2, HostBinding  } from '@angular/core';
+import { Component,ViewChild, ElementRef } from '@angular/core';
 @Component({
   selector: 'app-header',
   standalone: true,
