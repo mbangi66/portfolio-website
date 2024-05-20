@@ -33,16 +33,16 @@ import { Component } from '@angular/core';
             </div>
           </div>
           <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Services</h2>
-              <ul class="list-unstyled">
-                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Custom Web Development</a></li>
-                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>WordPress Website Design and Development</a></li>
-                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Database Management and Integration</a></li>
-                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Backend Development with .NET and C#</a></li>
-                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>SEO Optimization Services</a></li>
-              </ul>
-            </div>
+              <div class="ftco-footer-widget mb-4">
+                  <h2 class="ftco-heading-2">Services</h2>
+                  <ul class="list-unstyled">
+                      <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Custom Web Dev.</a></li>
+                      <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>WordPress Dev.</a></li>
+                      <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Database Mgmt. & Integration</a></li>
+                      <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Dev. with .NET & C#</a></li>
+                      <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>SEO Optimization</a></li>
+                  </ul>
+              </div>
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
