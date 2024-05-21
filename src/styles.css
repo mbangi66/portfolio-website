@@ -128,14 +128,26 @@ svg {
       }
   }
   @media (max-width: 768px) {
-      .typewriter-container {
-        white-space: normal;
-      }
-      .main-title {
-        white-space: normal; 
-        font-size: 40px;
-      }
+    .typewriter-container {
+      white-space: normal !important; 
+      width: 100%; 
     }
+    .main-title {
+      white-space: normal !important; 
+      font-size: 40px !important; 
+      text-align: center; 
+    }
+    .wrapper {
+      text-align: center;
+      padding-top: 50px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+    }
+  }
+  
     .main-title {
         font-size: 60px;
         font-weight: 800;
