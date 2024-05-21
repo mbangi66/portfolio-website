@@ -1,15 +1,13 @@
 import { Injectable } from '@angular/core';
-import { concat, from, interval, of, timer } from 'rxjs';
+import { concat, from, of, timer, EMPTY, Observable } from 'rxjs';
 import {
   concatMap,
   delay,
   ignoreElements,
-  map,
-  repeat,
   repeatWhen,
   take,
+  map,
 } from 'rxjs/operators';
-import { EMPTY } from 'rxjs';
 
 interface TypeParams {
   word: string;
@@ -21,45 +19,41 @@ interface TypeParams {
   providedIn: 'root'
 })
 export class MessageService {
-  
+  constructor() {}
 
-  constructor() { 
-    
+  private type({ word, speed, backwards = false }: TypeParams): Observable<string> {
+    return new Observable<string>((observer) => {
+      let currentIndex = backwards ? word.length : 0;
+      const length = word.length;
+
+      const intervalId = setInterval(() => {
+        if ((!backwards && currentIndex > length) || (backwards && currentIndex < 0)) {
+          clearInterval(intervalId);
+          observer.complete();
+        } else {
+          const nextChar = backwards ? word.substring(0, currentIndex) : word.substring(0, currentIndex + 1);
+          observer.next(nextChar);
+          currentIndex += backwards ? -1 : 1;
+        }
+      }, speed);
+
+      return () => clearInterval(intervalId); // Cleanup interval on unsubscribe
+    });
   }
-    private type({ word, speed, backwards = false }: TypeParams) {
-  let currentCharIndex = 0;
 
-  const animate = () => {
-    if (currentCharIndex === word.length || currentCharIndex === 0) {
-      return; // Animation complete
-    }
-    const nextChar = backwards ? word.charAt(word.length - currentCharIndex - 1) : word.charAt(currentCharIndex);
-    // Update displayed text using DOM manipulation or a dedicated component state
-    currentCharIndex += backwards ? -1 : 1;
-    requestAnimationFrame(animate);
-  };
+  typeEffect(word: string): Observable<string> {
+    return concat(
+      this.type({ word, speed: 200 }),
+      of('').pipe(delay(1500), ignoreElements()),
+      this.type({ word, speed: 100, backwards: true }),
+      of('').pipe(delay(500), ignoreElements())
+    );
+  }
 
-  requestAnimationFrame(animate);
-  return EMPTY; // Return EMPTY to prevent conflicts with other operators
+  getTypewriterEffect(titles: string[]): Observable<string> {
+    return from(titles).pipe(
+      concatMap((title) => this.typeEffect(title)),
+      repeatWhen(() => timer(5000))
+    );
+  }
 }
-
-  
-    typeEffect(word: string) {
-      return concat(
-        this.type({ word, speed: 200 }),
-        of('').pipe(delay(1500), ignoreElements()),
-        this.type({ word, speed: 300, backwards: true }),
-        of('').pipe(delay(500), ignoreElements())
-      );
-    }
-  
-    getTypewriterEffect(titles: string[]) {
-      return from(titles).pipe(
-        concatMap((title) => this.typeEffect(title)),
-        repeatWhen(() => timer(10000)) 
-      );
-    }    
-  }
-
-
-

@@ -1,6 +1,6 @@
-import { Component,ViewChild, ElementRef,inject, ChangeDetectionStrategy } from '@angular/core';
+import { Component,ViewChild, ElementRef,inject, ChangeDetectionStrategy, OnInit } from '@angular/core';
 import { MessageService } from '../message.service';
-import { map } from 'rxjs';
+import { Observable, map } from 'rxjs';
 import { AsyncPipe } from '@angular/common';
 @Component({
   selector: 'app-header',
@@ -35,7 +35,7 @@ import { AsyncPipe } from '@angular/common';
           		<span class="subhead">Hey! I am</span>
 		  				<h1>Mustaqeem Bangi</h1>
               <div class="typewriter-container">
-              <h2><span class="">{{ typedText$ | async }}</span></h2>
+              <h2><span class="txt">{{ typedText$ | async }}</span></h2>
               </div>
 							</div>
             </div>
@@ -47,7 +47,7 @@ import { AsyncPipe } from '@angular/common';
 				</a>
 			</div>
     </section>
-  `,changeDetection: ChangeDetectionStrategy.OnPush,
+  `,
   styles: `
   .mouses {
     position: absolute;
@@ -188,6 +188,10 @@ import { AsyncPipe } from '@angular/common';
   font-weight: 700;
 }
 
+.txt {
+  width:100%;
+}
+
 
   .rows{
     display:flex;
@@ -195,9 +199,10 @@ import { AsyncPipe } from '@angular/common';
     justify-content: center;
     padding-top: 150px;
   }
-        `
+        `,
+        changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
   titles: string[] = [
     'Web Developer',
     'WordPress Developer',
@@ -205,9 +210,10 @@ export class HeaderComponent {
     'Cloud Solutions',
     'Tech Support'
   ];
-  private typewriterService = inject(MessageService);
+  typedText$!: Observable<string>;
 
 	@ViewChild('ftcoNav') ftcoNav!: ElementRef;
+  constructor(private messageService: MessageService) {}
   
   toggleNavItem(event: Event) {
     const navItems = this.ftcoNav.nativeElement.querySelectorAll('.nav-link');
@@ -218,8 +224,7 @@ export class HeaderComponent {
     const target = event.currentTarget as HTMLElement;
     target.closest('.nav-link')?.classList.add('active');
   }
-
-  typedText$ = this.typewriterService
-    .getTypewriterEffect(this.titles)
-    .pipe(map((text) => text));
+  ngOnInit() {
+    this.typedText$ = this.messageService.getTypewriterEffect(this.titles);
+  }
 }
