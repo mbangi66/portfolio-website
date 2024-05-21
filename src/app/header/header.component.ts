@@ -152,6 +152,11 @@ import { AsyncPipe } from '@angular/common';
           max-width: 540px;
       }
   }
+  @media (max-width: 768px) {
+      .typewriter-container {
+        white-space: normal;
+      }
+    }
   .containers {
       width: 100%;
       padding-right: 15px;
@@ -191,6 +196,13 @@ import { AsyncPipe } from '@angular/common';
 .txt {
   width:100%;
 }
+
+.typewriter-container {
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 3px solid #3e64ff;
+      display: inline-block;
+    }
 
 
   .rows{
