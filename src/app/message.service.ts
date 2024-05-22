@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, concat, from, of, timer } from 'rxjs';
-import { concatMap, delay, ignoreElements, map, repeat, tap } from 'rxjs/operators';
+import { concatMap, delay, ignoreElements, map, switchMap } from 'rxjs/operators';
 
 interface TypeParams {
   word: string;
@@ -47,7 +47,9 @@ export class MessageService {
     return from(titles).pipe(
       concatMap((title) => this.typeEffect(title)),
       concatMap((result) => of(result).pipe(delay(3000))),
-      repeat({ delay: () => timer(3000) })
+      switchMap(() => timer(3000).pipe(
+        switchMap(() => this.getTypewriterEffect(titles))
+      ))
     );
   }
 }
