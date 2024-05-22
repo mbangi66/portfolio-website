@@ -37,7 +37,7 @@ export class MessageService {
         }
       }, speed);
 
-      return () => clearInterval(intervalId); // Cleanup interval on unsubscribe
+      return () => clearInterval(intervalId); 
     });
   }
 
@@ -52,8 +52,10 @@ export class MessageService {
 
   getTypewriterEffect(titles: string[]): Observable<string> {
     return from(titles).pipe(
-      concatMap((title) => this.typeEffect(title)),
-      repeatWhen(() => timer(5000))
+      concatMap((title) => this.typeEffect(title).pipe(
+        concatMap(result => of(result).pipe(delay(3000)))
+      )),
+      repeatWhen(() => timer(3000))
     );
   }
 }

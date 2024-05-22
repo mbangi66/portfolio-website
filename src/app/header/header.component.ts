@@ -74,7 +74,7 @@ export class HeaderComponent implements OnInit {
     const target = event.currentTarget as HTMLElement;
     target.closest('.nav-link')?.classList.add('active');
   }
-  ngOnInit() {
+  ngOnInit(): void {
     this.typedText$ = this.messageService.getTypewriterEffect(this.titles);
   }
 }

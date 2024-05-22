@@ -10,13 +10,13 @@ import { Component } from '@angular/core';
     			<div class="col-md-6 col-lg-6 d-flex">
     				<div class="img-about img d-flex align-items-stretch">
     					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(../assets/images/.jpg);">
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(../assets/images/0002.png);">
 	    				</div>
     				</div>
     			</div>
     			<div class="col-md-6 col-lg-6 pl-md-5 py-5">
     				<div class="row justify-content-start pb-3">
-		          <div class="col-md-12 heading-section ftco-animate">
+		          <div class="col-md-12 heading-section ftco-animate about">
 		          	<h1 class="big">About</h1>
 		            <h2 class="mb-4">About Me</h2>
 		            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
