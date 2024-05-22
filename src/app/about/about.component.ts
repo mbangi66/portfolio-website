@@ -6,11 +6,11 @@ import { Component } from '@angular/core';
   template: `
   <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
     	<div class="container">
-    		<div class="row d-flex no-gutters">
+    		<div class="row d-flex no-gutters imger">
     			<div class="col-md-6 col-lg-6 d-flex">
     				<div class="img-about img d-flex align-items-stretch">
     					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(../assets/images/0002.png);">
+	    				<div class="img d-flex align-self-stretch align-items-center portrait" style="background-image:url(../assets/images/0002.png);">
 	    				</div>
     				</div>
     			</div>

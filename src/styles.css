@@ -226,4 +226,16 @@ svg {
     padding-top: 15px;
   }
 
-  
+  .ftco-about .img-about .img {
+    height: 70vh !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important; 
+}
+
+.imger{
+  flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
