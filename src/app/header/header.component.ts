@@ -1,21 +1,21 @@
-import { Component, ViewChild, ElementRef, ChangeDetectionStrategy, OnInit, OnDestroy } from '@angular/core';
+import { Component,ViewChild, ElementRef,inject, ChangeDetectionStrategy, OnInit } from '@angular/core';
 import { MessageService } from '../message.service';
-import { Observable, Subscription } from 'rxjs';
+import { Observable, map } from 'rxjs';
 import { AsyncPipe } from '@angular/common';
-
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [AsyncPipe],
+  imports: [ AsyncPipe],
   template: `
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><span>M</span>ustaqeem</a>
-        <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="oi oi-menu"></span> Menu
-        </button>
-        <div class="collapse navbar-collapse" id="ftcoNav" #ftcoNav>
-          <ul class="navbar-nav nav ml-auto">
+    
+    <nav  class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><span>M</span>ustaqeem</a>
+    <button  class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="oi oi-menu"></span> Menu
+    </button>
+    <div class="collapse navbar-collapse" id="ftco-nav" #ftcoNav>
+    <ul class="navbar-nav nav ml-auto">
             <li class="nav-item"><a (click)="toggleNavItem($event)" href="#home-section" class="nav-link"><span>Home</span></a></li>
             <li class="nav-item"><a (click)="toggleNavItem($event)" href="#about-section" class="nav-link"><span>About</span></a></li>
             <li class="nav-item"><a (click)="toggleNavItem($event)" href="#resume-section" class="nav-link"><span>Resume</span></a></li>
@@ -23,37 +23,36 @@ import { AsyncPipe } from '@angular/common';
             <li class="nav-item"><a (click)="toggleNavItem($event)" href="#projects-section" class="nav-link"><span>Projects</span></a></li>
             <li class="nav-item"><a (click)="toggleNavItem($event)" href="#contact-section" class="nav-link"><span>Contact</span></a></li>
           </ul>
-        </div>
-      </div>
-    </nav>
+    </div>
+  </div>
+</nav>
     <section class="hero-wraps fullheight">
       <div class="overlays"></div>
       <div class="containers">
         <div class="rows no-gutters">
           <div class="col-lg-8 col-md-6">
-            <div class="text-centers wrapper">
-              <span class="subhead">Hey! I am</span>
-              <h1 class="main-title">Mustaqeem Bangi</h1>
+          	<div class=" text-centers wrapper">
+          		<span class="subhead">Hey! I am</span>
+		  				<h1  class="main-title">Mustaqeem Bangi</h1>
               <div class="typewriter-container">
-                <h2><span class="txt">{{ typedText$ | async }}</span></h2>
+              <h2><span class="txt">{{ typedText$ | async }}</span></h2>
               </div>
+							</div>
             </div>
           </div>
         </div>
-      </div>
       <div class="mouses">
-        <a href="#" class="mouse-icons">
-          <div class="mouse-wheels"><span class="ion-ios-arrow-round-down"></span></div>
-        </a>
-      </div>
+				<a href="#" class="mouse-icons">
+					<div class="mouse-wheels"><span class="ion-ios-arrow-round-down"></span></div>
+				</a>
+			</div>
     </section>
   `,
-  styles: [
-    /* Your styles here */
-  ],
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  styles: `
+        `,
+        changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HeaderComponent implements OnInit, OnDestroy {
+export class HeaderComponent implements OnInit {
   titles: string[] = [
     'Web Developer',
     'WordPress Developer',
@@ -62,24 +61,10 @@ export class HeaderComponent implements OnInit, OnDestroy {
     'Tech Support'
   ];
   typedText$!: Observable<string>;
-  private subscription: Subscription = new Subscription();
 
-  @ViewChild('ftcoNav') ftcoNav!: ElementRef;
-
+	@ViewChild('ftcoNav') ftcoNav!: ElementRef;
   constructor(private messageService: MessageService) {}
-
-  ngOnInit(): void {
-    this.typedText$ = this.messageService.getTypewriterEffect(this.titles);
-    this.subscription.add(this.typedText$.subscribe());
-  }
-
-  ngAfterViewInit() {
-    const navLinks = this.ftcoNav.nativeElement.querySelectorAll('.nav-link');
-    navLinks.forEach((navLink: HTMLElement) => {
-      navLink.addEventListener('click', this.toggleNavItem.bind(this), { passive: true });
-    });
-  }
-
+  
   toggleNavItem(event: Event) {
     const navItems = this.ftcoNav.nativeElement.querySelectorAll('.nav-link');
     navItems.forEach((item: HTMLElement) => {
@@ -89,8 +74,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
     const target = event.currentTarget as HTMLElement;
     target.closest('.nav-link')?.classList.add('active');
   }
-
-  ngOnDestroy(): void {
-    this.subscription.unsubscribe();
+  ngOnInit() {
+    this.typedText$ = this.messageService.getTypewriterEffect(this.titles);
   }
 }
