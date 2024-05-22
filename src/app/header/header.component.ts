@@ -41,9 +41,9 @@ import { AsyncPipe } from '@angular/common';
             </div>
           </div>
         </div>
-      <div class="mouses">
-				<a href="#" class="mouse-icons">
-					<div class="mouse-wheels"><span class="ion-ios-arrow-round-down"></span></div>
+      <div class="mouse">
+				<a href="#" class="mouse-icon">
+					<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
 				</a>
 			</div>
     </section>
