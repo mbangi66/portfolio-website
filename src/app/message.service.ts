@@ -1,13 +1,6 @@
 import { Injectable } from '@angular/core';
-import { concat, from, of, timer, EMPTY, Observable } from 'rxjs';
-import {
-  concatMap,
-  delay,
-  ignoreElements,
-  repeatWhen,
-  take,
-  map,
-} from 'rxjs/operators';
+import { Observable, concat, from, of, timer } from 'rxjs';
+import { concatMap, delay, ignoreElements, map, repeat, tap } from 'rxjs/operators';
 
 interface TypeParams {
   word: string;
@@ -37,7 +30,7 @@ export class MessageService {
         }
       }, speed);
 
-      return () => clearInterval(intervalId); 
+      return () => clearInterval(intervalId);
     });
   }
 
@@ -52,10 +45,9 @@ export class MessageService {
 
   getTypewriterEffect(titles: string[]): Observable<string> {
     return from(titles).pipe(
-      concatMap((title) => this.typeEffect(title).pipe(
-        concatMap(result => of(result).pipe(delay(3000)))
-      )),
-      repeatWhen(() => timer(3000))
+      concatMap((title) => this.typeEffect(title)),
+      concatMap((result) => of(result).pipe(delay(3000))),
+      repeat({ delay: () => timer(3000) })
     );
   }
 }
