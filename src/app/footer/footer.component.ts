@@ -49,7 +49,7 @@ import { Component } from '@angular/core';
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Ardiya Kuwait 138st</span></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">103 St, Al Farwaniyah Kuwait</span></li>
 	                <li><a href="tel://+965 410 76750"><span class="icon icon-phone"></span><span class="text">+965 410 76750</span></a></li>
 	                <li><a href="mailto:mbangi66@gmail.com"><span class="icon icon-envelope"></span><span class="text">mbangi66&#64;gmail.com</span></a></li>
 	              </ul>

@@ -26,7 +26,7 @@ import { CommonModule } from '@angular/common';
           		</div>
           		<div>
 	          		<h3 class="mb-4">Address</h3>
-		            <p>Ardiya Kuwait 138st</p>
+		            <p>103 St, Al Farwaniyah Kuwait</p>
 		          </div>
 	          </div>
           </div>
