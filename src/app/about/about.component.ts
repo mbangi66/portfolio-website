@@ -23,8 +23,7 @@ import { Component } from '@angular/core';
 		            <ul class="about-info mt-4 px-md-0 px-2">
 		            	<li class="d-flex"><span>Name:</span> <span>Mustaqeem Bangi</span></li>
 		            	<li class="d-flex"><span>Date of birth:</span> <span>June 04, 1997</span></li>
-		            	<li class="d-flex"><span>Address:</span> <span>Ardiya Kuwait</span></li>
-		            	<li class="d-flex"><span>Zip code:</span> <span>183</span></li>
+		            	<li class="d-flex"><span>Address:</span> <span>103 St, Al Farwaniyah Kuwait</span></li>
 		            	<li class="d-flex"><span>Email:</span> <span >mbangi66&#64;gmail.com</span></li>
 		            	<li class="d-flex"><span>Phone: </span> <span>+965 410 76750</span></li>
 		            </ul>
@@ -36,7 +35,7 @@ import { Component } from '@angular/core';
 	                <span class="number" data-number="40">0</span>
 	                <span>Project complete</span>
                 </p>
-                <p><a href="../assets/Mustaqeem-Bangi-CV.pdf" class="btn btn-primary py-3 px-3">Download CV</a></p>
+                <p><a href="../assets/Mustaqeem-Bangi_CV_3.pdf" class="btn btn-primary py-3 px-3">Download CV</a></p>
               </div>
 	          </div>
 	        </div>
